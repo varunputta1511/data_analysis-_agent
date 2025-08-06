@@ -1275,7 +1275,7 @@ def create_streamlit_ui():
     theme_indicator = "🌙" if st.session_state.theme_mode == 'dark' else "☀️"
     st.markdown(f"""
     <div class="main-header">
-        <h1>🤖 AI Document Analyst {theme_indicator}</h1>
+        <h1>🤖 AI Data Analyst {theme_indicator}</h1>
         <p style="font-size: 1.2em; margin: 0;">Transform your documents into actionable insights with AI</p>
         <p style="opacity: 0.9; margin: 0.5rem 0 0 0;">Built by Varun Putta | Powered by Meta Llama & Together AI | {st.session_state.theme_mode.title()} Mode</p>
     </div>
