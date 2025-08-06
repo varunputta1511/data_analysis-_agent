@@ -6,7 +6,7 @@
 
 ## 😏 What Is This Masterpiece?
 
-Welcome to **AI Document Analyst v2.0** – the tool you never knew you desperately needed, now with a complete UI makeover that'll make your other apps jealous. Built by _Devansh Singh_ (yes, I made this, and yes, I'm still waiting for my Nobel Prize).
+Welcome to **AI Document Analyst v2.0** – the tool you never knew you desperately needed, now with a complete UI makeover that'll make your other apps jealous. Built by _Varun Singh_ (yes, I made this, and yes, I'm still waiting for my Nobel Prize).
 
 This Python-powered, AI-infused, theme-switching, sarcasm-enabled agent will:
 
@@ -215,7 +215,7 @@ pip install --upgrade streamlit
 
 ## 📝 Credits & Thanks
 
-Made with excessive amounts of coffee, determination, and a healthy dose of sarcasm by **Devansh Singh**.
+Made with excessive amounts of coffee, determination, and a healthy dose of sarcasm by **Varun Singh**.
 
 Special thanks to:
 
@@ -239,7 +239,7 @@ Special thanks to:
 ## 💌 Feedback & Support
 
 - Open an issue on GitHub (I actually read them)
-- Email: dksdevansh@gmail.com (for serious stuff)
+- Email: dksVarun@gmail.com (for serious stuff)
 - Or just scream into the void (therapeutic but less helpful)
 
 ---
