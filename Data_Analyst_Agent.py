@@ -559,19 +559,23 @@ def create_streamlit_ui():
     if theme_mode == 'dark':
         css_theme = """
         :root {
-            --bg-primary: #0e1117;
-            --bg-secondary: #262730;
-            --bg-tertiary: #3d3d3d;
-            --text-primary: #fafafa;
-            --text-secondary: #e0e0e0;
-            --accent-color: #667eea;
-            --accent-gradient: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-            --border-color: #555555;
-            --card-bg: #262730;
-            --upload-bg: #1e1e2e;
-            --tab-bg: #262730;
-            --tab-selected: #667eea;
-        }
+  --bg-primary: #050505;            /* Pure Black */
+  --bg-secondary: #0a0a0a;          /* Slightly lifted from pure black */
+  --bg-tertiary: #101010;           /* Very deep dark gray */
+
+  --card-bg: #090909;
+  --upload-bg: #070707;
+  --tab-bg: #0a0a0a;
+  --tab-selected: #0fa37e;          /* Darker Emerald */
+
+  --text-primary: #e6fef4;          /* Softer than pure white, still vibrant */
+  --text-secondary: #87e2c1;        /* Slightly muted pale emerald */
+
+  --accent-color: #0fa37e;          /* Deep Emerald */
+  --accent-gradient: linear-gradient(90deg, #0fa37e 0%, #047857 100%); /* Emerald → Teal gradient */
+
+  --border-color: #1a1a1a;          /* Subtle border that blends in well */
+}
         
         .stApp {
             background-color: var(--bg-primary) !important;
